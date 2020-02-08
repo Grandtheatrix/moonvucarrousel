@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-moonvuamplify-dev-132358-authRole",
+            "UnauthRoleArn": "arn:aws:iam::517113019386:role/amplify-moonvuamplify-dev-132358-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::517113019386:role/amplify-moonvuamplify-dev-132358-authRole",
+            "Region": "us-west-1",
+            "DeploymentBucketName": "amplify-moonvuamplify-dev-132358-deployment",
+            "UnauthRoleName": "amplify-moonvuamplify-dev-132358-unauthRole",
+            "StackName": "amplify-moonvuamplify-dev-132358",
+            "StackId": "arn:aws:cloudformation:us-west-1:517113019386:stack/amplify-moonvuamplify-dev-132358/26d2cf70-49f0-11ea-8598-02e70048949f"
+        },
+        "categories": {
+            "auth": {
+                "moonvuamplifyb9565c8e": {},
+                "moonvuamplify21ff07bf": {}
+            }
+        }
+    }
+}
