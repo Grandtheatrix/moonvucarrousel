@@ -8,13 +8,13 @@ Amplify.configure({
     Auth: {
         identityPoolId: 'us-east-1:a5ff231d-b948-4073-8e5e-6b079663e8b1', //REQUIRED - Amazon Cognito Identity Pool ID
         region: 'us-east-1', // REQUIRED - Amazon Cognito Region
-        userPoolId: 'us-east-1_SNVaKJ7vD', //OPTIONAL - Amazon Cognito User Pool ID
-        userPoolWebClientId: '2lof3mvtb8faunb0bk47dovfkj', //OPTIONAL - Amazon Cognito Web Client ID
+        userPoolId: 'us-east-1_SNVaKJ7vD', //REQUIRED - Amazon Cognito User Pool ID
+        userPoolWebClientId: '2lof3mvtb8faunb0bk47dovfkj', //REQUIRED - Amazon Cognito Web Client ID
     },
     Storage: {
         AWSS3: {
             bucket: 'moon-vu-carrousel-test-bucket1', //REQUIRED -  Amazon S3 bucket
-            region: 'us-east-1', //OPTIONAL -  Amazon service region
+            region: 'us-east-1', //REQUIRED -  Amazon service region
         }
     }
 });
