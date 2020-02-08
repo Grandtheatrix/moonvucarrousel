@@ -1,0 +1,21 @@
+{
+	"auth": {
+		"moonvuamplifyb9565c8e": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		},
+		"moonvuamplify21ff07bf": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	},
+	"storage": {
+		"moonvuAmplify": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}
